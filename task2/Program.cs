@@ -131,13 +131,27 @@ namespace task2
             #endregion
 
             #region Q16
-            Console.Write("Enter character: ");
-            char ch = char.Parse(Console.ReadLine().ToLower());
-            if ("aeiou".Contains(ch))
-                Console.WriteLine("vowel");
-            else
-                Console.WriteLine("consonant");
+            //Console.Write("Enter character: ");
+            //char ch = char.Parse(Console.ReadLine().ToLower());
+            //if ("aeiou".Contains(ch))
+            //    Console.WriteLine("vowel");
+            //else
+            //    Console.WriteLine("consonant");
             #endregion
+
+            #region Q17
+            Console.Write("Enter month number: ");
+            int m = int.Parse(Console.ReadLine());
+            int days;
+            if (m == 2)
+                days = 28;
+            else if (m == 4 || m == 6 || m == 9 || m == 11)
+                days = 30;
+            else
+                days = 31;
+            Console.WriteLine($"Days in Month: {days}");
+            #endregion
+
         }
     }
 }
