@@ -25,9 +25,16 @@ namespace task2
             #endregion
 
             #region Q4
-            string str = "mohammed";
-            string sub = str.Substring(0,5);
-            Console.WriteLine(sub);
+            //string str = "mohammed";
+            //string sub = str.Substring(0,5);
+            //Console.WriteLine(sub);
+            #endregion
+
+            #region Q5
+            int a = 10;
+            int b = a;
+            b = 20;
+            Console.WriteLine($"a = {a}, b = {b}");
             #endregion
         }
     }
