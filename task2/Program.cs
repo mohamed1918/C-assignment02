@@ -45,10 +45,21 @@ namespace task2
             #endregion
 
             #region Q7
-            string str1 = "mohamed";
-            string str2 = "hossam";
-            string stringg = str1 + " " + str2;
-            Console.WriteLine(stringg);
+            //string str1 = "mohamed";
+            //string str2 = "hossam";
+            //string stringg = str1 + " " + str2;
+            //Console.WriteLine(stringg);
+            #endregion
+
+            #region Q8
+            Console.Write("Principal: ");
+            double p = double.Parse(Console.ReadLine());
+            Console.Write("Rate: ");
+            double r = double.Parse(Console.ReadLine());
+            Console.Write("Time: ");
+            double t = double.Parse(Console.ReadLine());
+            double si = (p * r * t) / 100;
+            Console.WriteLine($"Simple Interest: {si}");
             #endregion
         }
     }
