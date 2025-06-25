@@ -63,12 +63,19 @@ namespace task2
             #endregion
 
             #region Q9
-            Console.Write("Weight (kg): ");
-            double weight = double.Parse(Console.ReadLine());
-            Console.Write("Height (m): ");
-            double height = double.Parse(Console.ReadLine());
-            double bmi = weight / (height * height);
-            Console.WriteLine($"BMI: {bmi}");
+            //Console.Write("Weight (kg): ");
+            //double weight = double.Parse(Console.ReadLine());
+            //Console.Write("Height (m): ");
+            //double height = double.Parse(Console.ReadLine());
+            //double bmi = weight / (height * height);
+            //Console.WriteLine($"BMI: {bmi}");
+            #endregion
+
+            #region Q10
+            Console.Write("Temperature: ");
+            int temp = int.Parse(Console.ReadLine());
+            string status = temp < 10 ? "Just Cold" : temp > 30 ? "Just Hot" : "Just Good";
+            Console.WriteLine(status);
             #endregion
         }
     }
