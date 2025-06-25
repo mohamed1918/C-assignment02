@@ -100,12 +100,25 @@ namespace task2
             #endregion
 
             #region Q13
-            Console.Write("Enter integer: ");
-            int num2 = int.Parse(Console.ReadLine());
-            if (num2 < 0)
-                Console.WriteLine("Negative");
-            else
-                Console.WriteLine("Positive");
+            //Console.Write("Enter integer: ");
+            //int num2 = int.Parse(Console.ReadLine());
+            //if (num2 < 0)
+            //    Console.WriteLine("Negative");
+            //else
+            //    Console.WriteLine("Positive");
+            #endregion
+
+            #region Q14
+            Console.Write("Enter first number: ");
+            int n1 = int.Parse(Console.ReadLine());
+            Console.Write("Enter second number: ");
+            int n2 = int.Parse(Console.ReadLine());
+            Console.Write("Enter third number: ");
+            int n3 = int.Parse(Console.ReadLine());
+            int max = Math.Max(n1, Math.Max(n2, n3));
+            int min = Math.Min(n1, Math.Min(n2, n3));
+            Console.WriteLine($"Max number = {max}");
+            Console.WriteLine($"Min number = {min}");
             #endregion
         }
     }
