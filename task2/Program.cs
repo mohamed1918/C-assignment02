@@ -122,12 +122,21 @@ namespace task2
             #endregion
 
             #region Q15
-            Console.Write("Enter integer: ");
-            int num = int.Parse(Console.ReadLine());
-            if (num % 2 == 0)
-                Console.WriteLine("Even");
+            //Console.Write("Enter integer: ");
+            //int num = int.Parse(Console.ReadLine());
+            //if (num % 2 == 0)
+            //    Console.WriteLine("Even");
+            //else
+            //    Console.WriteLine("Odd");
+            #endregion
+
+            #region Q16
+            Console.Write("Enter character: ");
+            char ch = char.Parse(Console.ReadLine().ToLower());
+            if ("aeiou".Contains(ch))
+                Console.WriteLine("vowel");
             else
-                Console.WriteLine("Odd");
+                Console.WriteLine("consonant");
             #endregion
         }
     }
