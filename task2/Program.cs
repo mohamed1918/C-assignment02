@@ -52,14 +52,23 @@ namespace task2
             #endregion
 
             #region Q8
-            Console.Write("Principal: ");
-            double p = double.Parse(Console.ReadLine());
-            Console.Write("Rate: ");
-            double r = double.Parse(Console.ReadLine());
-            Console.Write("Time: ");
-            double t = double.Parse(Console.ReadLine());
-            double si = (p * r * t) / 100;
-            Console.WriteLine($"Simple Interest: {si}");
+            //Console.Write("Principal: ");
+            //double p = double.Parse(Console.ReadLine());
+            //Console.Write("Rate: ");
+            //double r = double.Parse(Console.ReadLine());
+            //Console.Write("Time: ");
+            //double t = double.Parse(Console.ReadLine());
+            //double si = (p * r * t) / 100;
+            //Console.WriteLine($"Simple Interest: {si}");
+            #endregion
+
+            #region Q9
+            Console.Write("Weight (kg): ");
+            double weight = double.Parse(Console.ReadLine());
+            Console.Write("Height (m): ");
+            double height = double.Parse(Console.ReadLine());
+            double bmi = weight / (height * height);
+            Console.WriteLine($"BMI: {bmi}");
             #endregion
         }
     }
