@@ -7,10 +7,17 @@ namespace task2
         static void Main(string[] args)
         {
             #region Q1
-            Console.WriteLine(" Enter a number : ");
-            int num = int.Parse(Console.ReadLine());
-            Console.WriteLine($"number : {num} ");
+            //Console.WriteLine(" Enter a number : ");
+            //int num = int.Parse(Console.ReadLine());
+            //Console.WriteLine($"number : {num} ");
             #endregion
-        }
+
+            #region Q2
+            string str = "123abc";
+            int val = int.Parse(str);
+            Console.WriteLine(val);
+            #endregion
+
+        }    
     }
 }
