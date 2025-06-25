@@ -38,10 +38,17 @@ namespace task2
             #endregion
 
             #region Q6
-            int[] arr1 = { 1, 2, 3 };
-            int[] arr2 = arr1;
-            arr2[0] = 99;
-            Console.WriteLine($"arr1[0] = {arr1[0]}");
+            //int[] arr1 = { 1, 2, 3 };
+            //int[] arr2 = arr1;
+            //arr2[0] = 99;
+            //Console.WriteLine($"arr1[0] = {arr1[0]}");
+            #endregion
+
+            #region Q7
+            string str1 = "mohamed";
+            string str2 = "hossam";
+            string stringg = str1 + " " + str2;
+            Console.WriteLine(stringg);
             #endregion
         }
     }
