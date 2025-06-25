@@ -91,12 +91,21 @@ namespace task2
             #endregion
 
             #region Q12
-            Console.Write("Enter number: ");
-            int n = int.Parse(Console.ReadLine());
-            if (n % 3 == 0 && n % 4 == 0)
-                Console.WriteLine("Yes");
+            //Console.Write("Enter number: ");
+            //int n = int.Parse(Console.ReadLine());
+            //if (n % 3 == 0 && n % 4 == 0)
+            //    Console.WriteLine("Yes");
+            //else
+            //    Console.WriteLine("No");
+            #endregion
+
+            #region Q13
+            Console.Write("Enter integer: ");
+            int num2 = int.Parse(Console.ReadLine());
+            if (num2 < 0)
+                Console.WriteLine("Negative");
             else
-                Console.WriteLine("No");
+                Console.WriteLine("Positive");
             #endregion
         }
     }
