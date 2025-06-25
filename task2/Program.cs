@@ -79,15 +79,24 @@ namespace task2
             #endregion
 
             #region Q11
-            Console.Write("Day: ");
-            int day = int.Parse(Console.ReadLine());
-            Console.Write("Month: ");
-            int month = int.Parse(Console.ReadLine());
-            Console.Write("Year: ");
-            int year = int.Parse(Console.ReadLine());
-            Console.WriteLine($"Today's date: {day} , {month} , {year}");
-            Console.WriteLine($"Today's date: {day} / {month} / {year}");
-            Console.WriteLine($"Today's date: {day} - {month} - {year}");
+            //Console.Write("Day: ");
+            //int day = int.Parse(Console.ReadLine());
+            //Console.Write("Month: ");
+            //int month = int.Parse(Console.ReadLine());
+            //Console.Write("Year: ");
+            //int year = int.Parse(Console.ReadLine());
+            //Console.WriteLine($"Today's date: {day} , {month} , {year}");
+            //Console.WriteLine($"Today's date: {day} / {month} / {year}");
+            //Console.WriteLine($"Today's date: {day} - {month} - {year}");
+            #endregion
+
+            #region Q12
+            Console.Write("Enter number: ");
+            int n = int.Parse(Console.ReadLine());
+            if (n % 3 == 0 && n % 4 == 0)
+                Console.WriteLine("Yes");
+            else
+                Console.WriteLine("No");
             #endregion
         }
     }
