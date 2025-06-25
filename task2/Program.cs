@@ -6,7 +6,11 @@ namespace task2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            #region Q1
+            Console.WriteLine(" Enter a number : ");
+            int num = int.Parse(Console.ReadLine());
+            Console.WriteLine($"number : {num} ");
+            #endregion
         }
     }
 }
