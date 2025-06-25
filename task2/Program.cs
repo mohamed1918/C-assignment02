@@ -72,10 +72,22 @@ namespace task2
             #endregion
 
             #region Q10
-            Console.Write("Temperature: ");
-            int temp = int.Parse(Console.ReadLine());
-            string status = temp < 10 ? "Just Cold" : temp > 30 ? "Just Hot" : "Just Good";
-            Console.WriteLine(status);
+            //Console.Write("Temperature: ");
+            //int temp = int.Parse(Console.ReadLine());
+            //string status = temp < 10 ? "Just Cold" : temp > 30 ? "Just Hot" : "Just Good";
+            //Console.WriteLine(status);
+            #endregion
+
+            #region Q11
+            Console.Write("Day: ");
+            int day = int.Parse(Console.ReadLine());
+            Console.Write("Month: ");
+            int month = int.Parse(Console.ReadLine());
+            Console.Write("Year: ");
+            int year = int.Parse(Console.ReadLine());
+            Console.WriteLine($"Today's date: {day} , {month} , {year}");
+            Console.WriteLine($"Today's date: {day} / {month} / {year}");
+            Console.WriteLine($"Today's date: {day} - {month} - {year}");
             #endregion
         }
     }
